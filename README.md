@@ -22,6 +22,8 @@ source .venv/bin/activate
 python -m pip install -r requirements.txt
 ```
 
+On Windows, activate with `.venv\Scripts\activate` (CMD) or `.venv\Scripts\Activate.ps1` (PowerShell).
+
 ## Configuration
 
 1. Create a `.env` file from the example:
@@ -76,4 +78,3 @@ Expected behavior:
 
 - Tests: `python -m pytest` (currently no tests discovered)
 - Lint: `python -m pylint main.py src`
-
