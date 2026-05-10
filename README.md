@@ -18,11 +18,33 @@ Minimal Python project for running an agent-style startup flow, validating local
 
 ```bash
 python -m venv .venv
-source .venv/bin/activate
-python -m pip install -r requirements.txt
 ```
 
-On Windows, activate with `.venv\Scripts\activate` (CMD) or `.venv\Scripts\Activate.ps1` (PowerShell).
+Activate the environment:
+
+**Linux/macOS**
+
+```bash
+source .venv/bin/activate
+```
+
+**Windows (CMD)**
+
+```bat
+.venv\Scripts\activate
+```
+
+**Windows (PowerShell)**
+
+```powershell
+.venv\Scripts\Activate.ps1
+```
+
+Then install dependencies:
+
+```bash
+python -m pip install -r requirements.txt
+```
 
 ## Configuration
 
